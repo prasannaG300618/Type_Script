@@ -37,6 +37,7 @@ function home(userCredential:user):void{
             existing:userCredential.existing,
             greet:function(){
             console.log(`Welcome back to our application, happy to see you again`)
+            
         }
         }
         oldAccount.greet()
